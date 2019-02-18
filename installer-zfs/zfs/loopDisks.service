@@ -1,0 +1,11 @@
+
+[Unit]
+Description=setup loop device images for ZFS
+Before=zfs.target
+
+[Service]
+Type=simple
+ExecStart=/bin/sh /home/carl/devel/zfs//setup_loop_boot.sh
+
+[Install]
+WantedBy=multi-user.target

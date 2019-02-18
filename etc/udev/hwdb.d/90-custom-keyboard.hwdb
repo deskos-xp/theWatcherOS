@@ -1,0 +1,5 @@
+evdev:atkbd:dmi:bvn*:bvr*:svnDellInc.:pnInspiron11-3168:pvr*:rn0219X2:rvrA00:cvnDellInc.:ct8:cvrNotSpecified:
+ KEYBOARD_KEY_c7=!home
+ KEYBOARD_KEY_cf=!end
+ KEYBOARD_KEY_c9=!pageup
+ KEYBOARD_KEY_d1=!pagedown

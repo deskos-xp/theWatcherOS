@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<screensaver name="punisher" _label="Punisher" gl="no">
+
+  <command arg="mpv --really-quiet --no-audio --fs --loop=inf --no-stop-screensaver /usr/share/videos/punisher.avi --wid=$XSCREENSAVER_WINDOW"/>
+
+  <xscreensaver-updater />
+
+  <_description>
+Display Punisher emblem using mpv
+config -> /usr/share/xscreensaver/config/punisher.xml
+video -> /usr/share/videos/punisher.avi
+Depends -> ('mpv','xscreensaver')
+Video by NoGuiLinux
+  </_description>
+</screensaver>

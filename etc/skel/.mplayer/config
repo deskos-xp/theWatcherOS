@@ -1,0 +1,10 @@
+# Write your default config options here!
+vo=xv
+autosync=1 
+geometry=960x540
+monitoraspect=16:9
+lavdopts=threads=4:skiploopfilter=all
+osdlevel=3 
+subfont-osd-scale=1 
+subfont-text-scale=4
+

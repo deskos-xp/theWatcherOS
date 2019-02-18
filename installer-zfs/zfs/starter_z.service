@@ -1,0 +1,25 @@
+[Unit]
+Description=Import ZFS pools by cache file
+DefaultDependencies=no
+Requires=systemd-udev-settle.service
+
+After=loopDisks.service
+After=dev-disk-by\x2dlabel-starter.device
+
+After=systemd-udev-settle.service
+After=cryptsetup.target
+After=systemd-remount-fs.service
+Before=dracut-mount.service
+Before=zfs-import.target
+ConditionPathExists=/etc/zfs/zpool.cache
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStartPre=-/sbin/modprobe zfs
+ExecStart=/usr/bin/zpool import starter
+
+[Install]
+WantedBy=dev-disk-by\x2dlabel-starter.device
+WantedBy=zfs-import.target
+

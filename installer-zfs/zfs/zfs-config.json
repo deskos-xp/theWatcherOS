@@ -1,0 +1,15 @@
+{
+	"disks":"0 1",
+	"type":"loop",
+	"mountPoint":"/home/carl/devel/zfs/zmount",
+	"poolName":"starter",
+	"raidT":"skip",
+	"path":"/home/carl/devel/zfs/",
+	"disk_size":"10G",
+	"mods":"zfs.conf",
+	"service_files":"loopDisks.service starter_z.service",
+	"services":"zfs-mount zfs-import.target zfs.target loopDisks.service starter_z.service",
+	"user":"carl",
+	"group":"carl",
+	"permission":"0755"
+}

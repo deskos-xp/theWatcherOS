@@ -1,0 +1,831 @@
+:: Checking for conflicts...
+:: Checking for inner conflicts...
+[Aur: 2]  libavutil-52-2.3.6-3  ffmpeg-compat-54-1.2.12-3
+
+  2 libavutil-52                             (Build Files Exist)
+  1 ffmpeg-compat-54                         (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> :: PKGBUILD up to date, Skipping (1/2): ffmpeg-compat-54
+:: PKGBUILD up to date, Skipping (2/2): libavutil-52
+  2 libavutil-52                             (Build Files Exist)
+  1 ffmpeg-compat-54                         (Build Files Exist)
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> Diffs to show?
+==> :: Parsing SRCINFO (1/2): libavutil-52
+:: Parsing SRCINFO (2/2): ffmpeg-compat-54
+==> Making package: libavutil-52 2.3.6-3 (Sat Jan  5 09:13:54 2019)
+==> Retrieving sources...
+  -> Found ffmpeg-2.3.6.tar.bz2
+  -> Found ffmpeg-2.3.6.tar.bz2.asc
+==> Validating source files with sha256sums...
+    ffmpeg-2.3.6.tar.bz2 ... Passed
+    ffmpeg-2.3.6.tar.bz2.asc ... Skipped
+==> Verifying source file signatures with gpg...
+    ffmpeg-2.3.6.tar.bz2 ... Passed
+==> Cleaning up...
+==> Making package: ffmpeg-compat-54 1.2.12-3 (Sat Jan  5 09:13:54 2019)
+==> Retrieving sources...
+  -> Downloading ffmpeg-1.2.12.tar.bz2...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 5834k    0 28701    0     0  35786      0  0:02:46 --:--:--  0:02:46 35742 15 5834k   15  918k    0     0   519k      0  0:00:11  0:00:01  0:00:10  518k 88 5834k   88 5161k    0     0  1876k      0  0:00:03  0:00:02  0:00:01 1875k100 5834k  100 5834k    0     0  1985k      0  0:00:02  0:00:02 --:--:-- 1985k
+  -> Downloading ffmpeg-1.2.12.tar.bz2.asc...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   473  100   473    0     0    555      0 --:--:-- --:--:-- --:--:--   554100   473  100   473    0     0    555      0 --:--:-- --:--:-- --:--:--   554
+  -> Downloading libvpx_VP8E_UPD_ENTROPY.patch...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  1830    0  1830    0     0   1006      0 --:--:--  0:00:01 --:--:--  1006
+  -> Downloading fix_compilation_with_x264_ge_153_1.patch...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1279    0  1279    0     0   3612      0 --:--:-- --:--:-- --:--:--  3602
+  -> Downloading fix_compilation_with_x264_ge_153_2.patch...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2328    0  2328    0     0   6747      0 --:--:-- --:--:-- --:--:--  6747
+  -> Downloading fix_compilation_with_x264_ge_153_3.patch...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1289    0  1289    0     0   3620      0 --:--:-- --:--:-- --:--:--  3610
+  -> Found fix_compilation_with_x264_ge_153_4.patch
+==> Validating source files with sha256sums...
+    ffmpeg-1.2.12.tar.bz2 ... Passed
+    ffmpeg-1.2.12.tar.bz2.asc ... Skipped
+    libvpx_VP8E_UPD_ENTROPY.patch ... Passed
+    fix_compilation_with_x264_ge_153_1.patch ... Passed
+    fix_compilation_with_x264_ge_153_2.patch ... Passed
+    fix_compilation_with_x264_ge_153_3.patch ... Passed
+    fix_compilation_with_x264_ge_153_4.patch ... Passed
+==> Verifying source file signatures with gpg...
+    ffmpeg-1.2.12.tar.bz2 ... Passed
+==> Cleaning up...
+==> Making package: libavutil-52 2.3.6-3 (Sat Jan  5 09:14:02 2019)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found ffmpeg-2.3.6.tar.bz2
+  -> Found ffmpeg-2.3.6.tar.bz2.asc
+==> Validating source files with sha256sums...
+    ffmpeg-2.3.6.tar.bz2 ... Passed
+    ffmpeg-2.3.6.tar.bz2.asc ... Skipped
+==> Verifying source file signatures with gpg...
+    ffmpeg-2.3.6.tar.bz2 ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting ffmpeg-2.3.6.tar.bz2 with bsdtar
+bsdtar: Failed to set default locale
+==> Sources are ready.
+==> Making package: libavutil-52 2.3.6-3 (Sat Jan  5 09:14:05 2019)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Starting build()...
+install prefix            /usr
+source path               .
+C compiler                gcc
+C library                 glibc
+ARCH                      x86 (generic)
+big-endian                no
+runtime cpu detection     yes
+yasm                      yes
+MMX enabled               yes
+MMXEXT enabled            yes
+3DNow! enabled            yes
+3DNow! extended enabled   yes
+SSE enabled               yes
+SSSE3 enabled             yes
+AVX enabled               yes
+XOP enabled               yes
+FMA3 enabled              yes
+FMA4 enabled              yes
+i686 features enabled     yes
+CMOV is fast              yes
+EBX available             yes
+EBP available             yes
+debug symbols             no
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    no
+shared                    yes
+postprocessing support    no
+new filter support        no
+network support           yes
+threading support         pthreads
+safe bitstream reader     yes
+SDL support               yes
+opencl enabled            no
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          yes
+
+External libraries:
+bzlib			libopencore_amrwb	libv4l2
+iconv			libopenjpeg		libvorbis
+libass			libopus			libvpx
+libbluray		libpulse		libx264
+libfreetype		librtmp			libxvid
+libgsm			libschroedinger		x11grab
+libmodplug		libspeex		xlib
+libmp3lame		libtheora		zlib
+libopencore_amrnb
+
+Enabled decoders:
+aac			bink			gsm_ms
+aac_latm		binkaudio_dct		h261
+aasc			binkaudio_rdft		h263
+ac3			bintext			h263i
+ac3_fixed		bmp			h263p
+adpcm_4xm		bmv_audio		h264
+adpcm_adx		bmv_video		h264_vdpau
+adpcm_afc		brender_pix		hevc
+adpcm_ct		c93			hnm4_video
+adpcm_dtk		cavs			huffyuv
+adpcm_ea		cdgraphics		iac
+adpcm_ea_maxis_xa	cdxl			idcin
+adpcm_ea_r1		cinepak			idf
+adpcm_ea_r2		cljr			iff_byterun1
+adpcm_ea_r3		cllc			iff_ilbm
+adpcm_ea_xas		comfortnoise		imc
+adpcm_g722		cook			indeo2
+adpcm_g726		cpia			indeo3
+adpcm_g726le		cscd			indeo4
+adpcm_ima_amv		cyuv			indeo5
+adpcm_ima_apc		dca			interplay_dpcm
+adpcm_ima_dk3		dfa			interplay_video
+adpcm_ima_dk4		dirac			jacosub
+adpcm_ima_ea_eacs	dnxhd			jpeg2000
+adpcm_ima_ea_sead	dpx			jpegls
+adpcm_ima_iss		dsd_lsbf		jv
+adpcm_ima_oki		dsd_lsbf_planar		kgv1
+adpcm_ima_qt		dsd_msbf		kmvc
+adpcm_ima_rad		dsd_msbf_planar		lagarith
+adpcm_ima_smjpeg	dsicinaudio		libgsm
+adpcm_ima_wav		dsicinvideo		libgsm_ms
+adpcm_ima_ws		dvbsub			libopencore_amrnb
+adpcm_ms		dvdsub			libopencore_amrwb
+adpcm_sbpro_2		dvvideo			libopenjpeg
+adpcm_sbpro_3		dxa			libopus
+adpcm_sbpro_4		dxtory			libschroedinger
+adpcm_swf		eac3			libspeex
+adpcm_thp		eacmv			libvorbis
+adpcm_vima		eamad			libvpx_vp8
+adpcm_xa		eatgq			libvpx_vp9
+adpcm_yamaha		eatgv			loco
+aic			eatqi			mace3
+alac			eightbps		mace6
+alias_pix		eightsvx_exp		mdec
+als			eightsvx_fib		metasound
+amrnb			escape124		microdvd
+amrwb			escape130		mimic
+amv			evrc			mjpeg
+anm			exr			mjpegb
+ansi			ffv1			mlp
+ape			ffvhuff			mmvideo
+ass			ffwavesynth		motionpixels
+asv1			fic			movtext
+asv2			flac			mp1
+atrac1			flashsv			mp1float
+atrac3			flashsv2		mp2
+atrac3p			flic			mp2float
+aura			flv			mp3
+aura2			fourxm			mp3adu
+avrn			fraps			mp3adufloat
+avrp			frwu			mp3float
+avs			g2m			mp3on4
+avui			g723_1			mp3on4float
+ayuv			g729			mpc7
+bethsoftvid		gif			mpc8
+bfi			gsm			mpeg1_vdpau
+mpeg1video		pjs			tscc2
+mpeg2video		png			tta
+mpeg4			ppm			twinvq
+mpeg4_vdpau		prores			txd
+mpeg_vdpau		prores_lgpl		ulti
+mpeg_xvmc		ptx			utvideo
+mpegvideo		qcelp			v210
+mpl2			qdm2			v210x
+msa1			qdraw			v308
+msmpeg4v1		qpeg			v408
+msmpeg4v2		qtrle			v410
+msmpeg4v3		r10k			vb
+msrle			r210			vble
+mss1			ra_144			vc1
+mss2			ra_288			vc1_vdpau
+msvideo1		ralf			vc1image
+mszh			rawvideo		vcr1
+mts2			realtext		vima
+mvc1			rl2			vmdaudio
+mvc2			roq			vmdvideo
+mxpeg			roq_dpcm		vmnc
+nellymoser		rpza			vorbis
+nuv			rv10			vp3
+on2avc			rv20			vp5
+paf_audio		rv30			vp6
+paf_video		rv40			vp6a
+pam			s302m			vp6f
+pbm			sami			vp7
+pcm_alaw		sanm			vp8
+pcm_bluray		sgi			vp9
+pcm_dvd			sgirle			vplayer
+pcm_f32be		shorten			vqa
+pcm_f32le		sipr			wavpack
+pcm_f64be		smackaud		webp
+pcm_f64le		smacker			webvtt
+pcm_lxf			smc			wmalossless
+pcm_mulaw		smvjpeg			wmapro
+pcm_s16be		snow			wmav1
+pcm_s16be_planar	sol_dpcm		wmav2
+pcm_s16le		sonic			wmavoice
+pcm_s16le_planar	sp5x			wmv1
+pcm_s24be		srt			wmv2
+pcm_s24daud		ssa			wmv3
+pcm_s24le		subrip			wmv3_vdpau
+pcm_s24le_planar	subviewer		wmv3image
+pcm_s32be		subviewer1		wnv1
+pcm_s32le		sunrast			ws_snd1
+pcm_s32le_planar	svq1			xan_dpcm
+pcm_s8			svq3			xan_wc3
+pcm_s8_planar		tak			xan_wc4
+pcm_u16be		targa			xbin
+pcm_u16le		targa_y216		xbm
+pcm_u24be		text			xface
+pcm_u24le		theora			xl
+pcm_u32be		thp			xsub
+pcm_u32le		tiertexseqvideo		xwd
+pcm_u8			tiff			y41p
+pcm_zork		tmv			yop
+pcx			truehd			yuv4
+pgm			truemotion1		zero12v
+pgmyuv			truemotion2		zerocodec
+pgssub			truespeech		zlib
+pictor			tscc			zmbv
+
+Enabled encoders:
+a64multi		libopenjpeg		pcx
+a64multi5		libopus			pgm
+aac			libschroedinger		pgmyuv
+ac3			libspeex		png
+ac3_fixed		libtheora		ppm
+adpcm_adx		libvorbis		prores
+adpcm_g722		libvpx_vp8		prores_aw
+adpcm_g726		libvpx_vp9		prores_ks
+adpcm_ima_qt		libx264			qtrle
+adpcm_ima_wav		libx264rgb		r10k
+adpcm_ms		libxvid			r210
+adpcm_swf		ljpeg			ra_144
+adpcm_yamaha		mjpeg			rawvideo
+alac			movtext			roq
+alias_pix		mp2			roq_dpcm
+amv			mp2fixed		rv10
+ass			mpeg1video		rv20
+asv1			mpeg2video		s302m
+asv2			mpeg4			sgi
+avrp			msmpeg4v2		snow
+avui			msmpeg4v3		sonic
+ayuv			msvideo1		sonic_ls
+bmp			nellymoser		srt
+cinepak			pam			ssa
+cljr			pbm			subrip
+comfortnoise		pcm_alaw		sunrast
+dca			pcm_f32be		svq1
+dnxhd			pcm_f32le		targa
+dpx			pcm_f64be		tiff
+dvbsub			pcm_f64le		tta
+dvdsub			pcm_mulaw		utvideo
+dvvideo			pcm_s16be		v210
+eac3			pcm_s16be_planar	v308
+ffv1			pcm_s16le		v408
+ffvhuff			pcm_s16le_planar	v410
+flac			pcm_s24be		vorbis
+flashsv			pcm_s24daud		wavpack
+flashsv2		pcm_s24le		webvtt
+flv			pcm_s24le_planar	wmav1
+g723_1			pcm_s32be		wmav2
+gif			pcm_s32le		wmv1
+h261			pcm_s32le_planar	wmv2
+h263			pcm_s8			xbm
+h263p			pcm_s8_planar		xface
+huffyuv			pcm_u16be		xsub
+jpeg2000		pcm_u16le		xwd
+jpegls			pcm_u24be		y41p
+libgsm			pcm_u24le		yuv4
+libgsm_ms		pcm_u32be		zlib
+libmp3lame		pcm_u32le		zmbv
+libopencore_amrnb	pcm_u8
+
+Enabled hwaccels:
+h263_vaapi		mpeg1_xvmc		mpeg4_vdpau
+h263_vdpau		mpeg2_vaapi		vc1_vaapi
+h264_vaapi		mpeg2_vdpau		vc1_vdpau
+h264_vdpau		mpeg2_xvmc		wmv3_vaapi
+mpeg1_vdpau		mpeg4_vaapi		wmv3_vdpau
+
+Enabled parsers:
+aac			dvd_nav			mpegvideo
+aac_latm		dvdsub			opus
+ac3			flac			png
+adx			gsm			pnm
+bmp			h261			rv30
+cavsvideo		h263			rv40
+cook			h264			tak
+dca			hevc			vc1
+dirac			mjpeg			vorbis
+dnxhd			mlp			vp3
+dpx			mpeg4video		vp8
+dvbsub			mpegaudio		vp9
+
+Enabled demuxers:
+aac			h263			nsv
+ac3			h264			nut
+act			hevc			nuv
+adf			hls			ogg
+adp			hnm			oma
+adx			ico			paf
+aea			idcin			pcm_alaw
+afc			idf			pcm_f32be
+aiff			iff			pcm_f32le
+amr			ilbc			pcm_f64be
+anm			image2			pcm_f64le
+apc			image2_alias_pix	pcm_mulaw
+ape			image2_brender_pix	pcm_s16be
+aqtitle			image2pipe		pcm_s16le
+asf			image_bmp_pipe		pcm_s24be
+ass			image_dpx_pipe		pcm_s24le
+ast			image_exr_pipe		pcm_s32be
+au			image_j2k_pipe		pcm_s32le
+avi			image_pictor_pipe	pcm_s8
+avr			image_png_pipe		pcm_u16be
+avs			image_sgi_pipe		pcm_u16le
+bethsoftvid		image_sunrast_pipe	pcm_u24be
+bfi			image_tiff_pipe		pcm_u24le
+bink			ingenient		pcm_u32be
+bintext			ipmovie			pcm_u32le
+bit			ircam			pcm_u8
+bmv			iss			pjs
+boa			iv8			pmp
+brstm			ivf			pva
+c93			jacosub			pvf
+caf			jv			qcp
+cavsvideo		latm			r3d
+cdg			libmodplug		rawvideo
+cdxl			live_flv		realtext
+cine			lmlm4			redspark
+concat			loas			rl2
+data			lrc			rm
+daud			lvf			roq
+dfa			lxf			rpl
+dirac			m4v			rsd
+dnxhd			matroska		rso
+dsf			mgsts			rtp
+dsicin			microdvd		rtsp
+dts			mjpeg			sami
+dtshd			mlp			sap
+dv			mlv			sbg
+dxa			mm			sdp
+ea			mmf			sdr2
+ea_cdata		mov			segafilm
+eac3			mp3			shorten
+epaf			mpc			siff
+ffm			mpc8			sln
+ffmetadata		mpegps			smacker
+filmstrip		mpegts			smjpeg
+flac			mpegtsraw		smush
+flic			mpegvideo		sol
+flv			mpl2			sox
+fourxm			mpsub			spdif
+frm			msnwc_tcp		srt
+g722			mtv			str
+g723_1			mv			subviewer
+g729			mvi			subviewer1
+gif			mxf			swf
+gsm			mxg			tak
+gxf			nc			tedcaptions
+h261			nistsphere		thp
+tiertexseq		vobsub			wsvqa
+tmv			voc			wtv
+truehd			vplayer			wv
+tta			vqf			xa
+tty			w64			xbin
+txd			wav			xmv
+vc1			wc3			xwma
+vc1t			webm_dash_manifest	yop
+vivo			webvtt			yuv4mpegpipe
+vmd			wsaud
+
+Enabled muxers:
+a64			ipod			pcm_s24be
+ac3			ircam			pcm_s24le
+adts			ismv			pcm_s32be
+adx			ivf			pcm_s32le
+aiff			jacosub			pcm_s8
+amr			latm			pcm_u16be
+asf			lrc			pcm_u16le
+asf_stream		m4v			pcm_u24be
+ass			matroska		pcm_u24le
+ast			matroska_audio		pcm_u32be
+au			md5			pcm_u32le
+avi			microdvd		pcm_u8
+avm2			mjpeg			psp
+bit			mkvtimestamp_v2		rawvideo
+caf			mlp			rm
+cavsvideo		mmf			roq
+crc			mov			rso
+data			mp2			rtp
+daud			mp3			rtsp
+dirac			mp4			sap
+dnxhd			mpeg1system		segment
+dts			mpeg1vcd		smjpeg
+dv			mpeg1video		smoothstreaming
+eac3			mpeg2dvd		sox
+f4v			mpeg2svcd		spdif
+ffm			mpeg2video		speex
+ffmetadata		mpeg2vob		srt
+filmstrip		mpegts			stream_segment
+flac			mpjpeg			swf
+flv			mxf			tee
+framecrc		mxf_d10			tg2
+framemd5		null			tgp
+g722			nut			truehd
+g723_1			oga			uncodedframecrc
+gif			ogg			vc1
+gxf			oma			vc1t
+h261			opus			voc
+h263			pcm_alaw		w64
+h264			pcm_f32be		wav
+hds			pcm_f32le		webm
+hevc			pcm_f64be		webm_dash_manifest
+hls			pcm_f64le		webvtt
+ico			pcm_mulaw		wtv
+ilbc			pcm_s16be		wv
+image2			pcm_s16le		yuv4mpegpipe
+image2pipe
+
+Enabled protocols:
+bluray			http			mmst
+cache			httpproxy		pipe
+concat			librtmp			rtp
+crypto			librtmpe		srtp
+data			librtmps		subfile
+file			librtmpt		tcp
+ftp			librtmpte		udp
+gopher			md5			unix
+hls			mmsh
+
+Enabled filters:
+adelay			curves			null
+aecho			decimate		nullsink
+aeval			dejudder		nullsrc
+aevalsrc		delogo			overlay
+afade			drawbox			owdenoise
+aformat			drawgrid		pad
+ainterleave		drawtext		perms
+allpass			earwax			perspective
+alphaextract		ebur128			phase
+alphamerge		edgedetect		pixdesctest
+amerge			elbg			psnr
+amix			equalizer		pullup
+anull			extractplanes		replaygain
+anullsink		fade			rgbtestsrc
+anullsrc		field			rotate
+apad			fieldmatch		select
+aperms			fieldorder		sendcmd
+aphaser			flanger			separatefields
+aselect			format			setdar
+asendcmd		fps			setfield
+asetnsamples		framepack		setpts
+asetpts			framestep		setsar
+asetrate		geq			settb
+asettb			gradfun			showcqt
+ashowinfo		haldclut		showinfo
+asplit			haldclutsrc		showwaves
+ass			hflip			shuffleplanes
+astats			highpass		signalstats
+astreamsync		histeq			silencedetect
+atrim			histogram		sine
+avectorscope		hqdn3d			smptebars
+bandpass		hqx			smptehdbars
+bandreject		hue			split
+bass			idet			stereo3d
+bbox			il			super2xsai
+biquad			interlace		swapuv
+blackdetect		interleave		telecine
+blackframe		join			testsrc
+blend			kerndeint		thumbnail
+boxblur			life			tile
+cellauto		lowpass			tinterlace
+channelmap		lut			transpose
+channelsplit		lut3d			treble
+color			lutrgb			trim
+colorbalance		lutyuv			unsharp
+colorchannelmixer	mandelbrot		vflip
+colormatrix		mergeplanes		vignette
+compand			mptestsrc		volume
+concat			negate			volumedetect
+copy			noformat		w3fdif
+crop			noise			yadif
+cropdetect
+
+Enabled bsfs:
+aac_adtstoasc		imx_dump_header		mp3_header_decompress
+chomp			mjpeg2jpeg		noise
+dump_extradata		mjpega_dump_header	remove_extradata
+h264_mp4toannexb	mov2textsub		text2movsub
+
+Enabled indevs:
+alsa			jack			v4l2
+dv1394			oss			x11grab
+fbdev			pulse
+
+Enabled outdevs:
+alsa			pulse			v4l2
+fbdev			sdl			xv
+oss
+
+License: GPL version 3 or later
+Creating config.mak, config.h, and doc/config.texi...
+==> Entering fakeroot environment...
+==> Starting package()...
+CC	libavutil/adler32.o
+CC	libavutil/aes.o
+CC	libavutil/atomic.o
+CC	libavutil/audio_fifo.o
+CC	libavutil/avstring.o
+CC	libavutil/base64.o
+CC	libavutil/blowfish.o
+CC	libavutil/bprint.o
+CC	libavutil/buffer.o
+CC	libavutil/channel_layout.o
+CC	libavutil/cpu.o
+CC	libavutil/crc.o
+CC	libavutil/des.o
+CC	libavutil/dict.o
+libavutil/dict.c: In function 'av_dict_set':
+libavutil/dict.c:80:58: warning: passing argument 1 of 'av_free' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+             if (flags & AV_DICT_DONT_STRDUP_KEY) av_free(key);
+                                                          ^~~
+In file included from libavutil/common.h:412,
+                 from libavutil/avutil.h:289,
+                 from libavutil/log.h:25,
+                 from libavutil/timer.h:39,
+                 from libavutil/internal.h:39,
+                 from libavutil/dict.c:25:
+libavutil/mem.h:195:20: note: expected 'void *' but argument is of type 'const char *'
+ void av_free(void *ptr);
+              ~~~~~~^~~
+libavutil/dict.c:81:58: warning: passing argument 1 of 'av_free' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+             if (flags & AV_DICT_DONT_STRDUP_VAL) av_free(value);
+                                                          ^~~~~
+In file included from libavutil/common.h:412,
+                 from libavutil/avutil.h:289,
+                 from libavutil/log.h:25,
+                 from libavutil/timer.h:39,
+                 from libavutil/internal.h:39,
+                 from libavutil/dict.c:25:
+libavutil/mem.h:195:20: note: expected 'void *' but argument is of type 'const char *'
+ void av_free(void *ptr);
+              ~~~~~~^~~
+CC	libavutil/display.o
+CC	libavutil/downmix_info.o
+CC	libavutil/error.o
+CC	libavutil/eval.o
+libavutil/eval.c: In function 'eval_expr':
+libavutil/eval.c:239:21: warning: 'av_reverse' is deprecated [-Wdeprecated-declarations]
+                     p->var[0] = av_reverse[i&255]*x_max/255;
+                     ^
+In file included from libavutil/avutil.h:289,
+                 from libavutil/eval.c:31:
+libavutil/common.h:79:43: note: declared here
+ extern attribute_deprecated const uint8_t av_reverse[256];
+                                           ^~~~~~~~~~
+CC	libavutil/fifo.o
+CC	libavutil/file.o
+CC	libavutil/file_open.o
+CC	libavutil/fixed_dsp.o
+CC	libavutil/float_dsp.o
+CC	libavutil/frame.o
+libavutil/frame.c: In function 'av_frame_set_qp_table':
+libavutil/frame.c:55:5: warning: 'qscale_table' is deprecated [-Wdeprecated-declarations]
+     f->qscale_table = buf->data;
+     ^
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:245:13: note: declared here
+     int8_t *qscale_table;
+             ^~~~~~~~~~~~
+libavutil/frame.c:56:5: warning: 'qstride' is deprecated [-Wdeprecated-declarations]
+     f->qstride      = stride;
+     ^
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:250:9: note: declared here
+     int qstride;
+         ^~~~~~~
+libavutil/frame.c:57:5: warning: 'qscale_type' is deprecated [-Wdeprecated-declarations]
+     f->qscale_type  = qp_type;
+     ^
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:253:9: note: declared here
+     int qscale_type;
+         ^~~~~~~~~~~
+libavutil/frame.c: In function 'av_frame_get_qp_table':
+libavutil/frame.c:64:5: warning: 'qstride' is deprecated [-Wdeprecated-declarations]
+     *stride = f->qstride;
+     ^
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:250:9: note: declared here
+     int qstride;
+         ^~~~~~~
+libavutil/frame.c:65:5: warning: 'qscale_type' is deprecated [-Wdeprecated-declarations]
+     *type   = f->qscale_type;
+     ^
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:253:9: note: declared here
+     int qscale_type;
+         ^~~~~~~~~~~
+libavutil/frame.c: In function 'av_frame_copy_props':
+libavutil/frame.c:471:5: warning: 'type' is deprecated [-Wdeprecated-declarations]
+     dst->type                   = src->type;
+     ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:307:9: note: declared here
+     int type;
+         ^~~~
+libavutil/frame.c:471:5: warning: 'type' is deprecated [-Wdeprecated-declarations]
+     dst->type                   = src->type;
+     ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:307:9: note: declared here
+     int type;
+         ^~~~
+libavutil/frame.c:513:5: warning: 'qscale_table' is deprecated [-Wdeprecated-declarations]
+     dst->qscale_table = NULL;
+     ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:245:13: note: declared here
+     int8_t *qscale_table;
+             ^~~~~~~~~~~~
+libavutil/frame.c:514:5: warning: 'qstride' is deprecated [-Wdeprecated-declarations]
+     dst->qstride      = 0;
+     ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:250:9: note: declared here
+     int qstride;
+         ^~~~~~~
+libavutil/frame.c:515:5: warning: 'qscale_type' is deprecated [-Wdeprecated-declarations]
+     dst->qscale_type  = 0;
+     ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:253:9: note: declared here
+     int qscale_type;
+         ^~~~~~~~~~~
+libavutil/frame.c:519:13: warning: 'qscale_table' is deprecated [-Wdeprecated-declarations]
+             dst->qscale_table = dst->qp_table_buf->data;
+             ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:245:13: note: declared here
+     int8_t *qscale_table;
+             ^~~~~~~~~~~~
+libavutil/frame.c:520:13: warning: 'qstride' is deprecated [-Wdeprecated-declarations]
+             dst->qstride      = src->qstride;
+             ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:250:9: note: declared here
+     int qstride;
+         ^~~~~~~
+libavutil/frame.c:520:13: warning: 'qstride' is deprecated [-Wdeprecated-declarations]
+             dst->qstride      = src->qstride;
+             ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:250:9: note: declared here
+     int qstride;
+         ^~~~~~~
+libavutil/frame.c:521:13: warning: 'qscale_type' is deprecated [-Wdeprecated-declarations]
+             dst->qscale_type  = src->qscale_type;
+             ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:253:9: note: declared here
+     int qscale_type;
+         ^~~~~~~~~~~
+libavutil/frame.c:521:13: warning: 'qscale_type' is deprecated [-Wdeprecated-declarations]
+             dst->qscale_type  = src->qscale_type;
+             ^~~
+In file included from libavutil/frame.c:25:
+libavutil/frame.h:253:9: note: declared here
+     int qscale_type;
+         ^~~~~~~~~~~
+CC	libavutil/hash.o
+CC	libavutil/hmac.o
+CC	libavutil/imgutils.o
+CC	libavutil/intfloat_readwrite.o
+CC	libavutil/intmath.o
+CC	libavutil/lfg.o
+CC	libavutil/lls1.o
+CC	libavutil/lls2.o
+CC	libavutil/log.o
+CC	libavutil/log2_tab.o
+CC	libavutil/lzo.o
+CC	libavutil/mathematics.o
+CC	libavutil/md5.o
+CC	libavutil/mem.o
+CC	libavutil/murmur3.o
+CC	libavutil/opt.o
+libavutil/opt.c: In function 'av_find_opt':
+libavutil/opt.c:49:5: warning: 'av_next_option' is deprecated [-Wdeprecated-declarations]
+     while ((o = av_next_option(v, o))) {
+     ^~~~~
+In file included from libavutil/opt.c:32:
+libavutil/opt.h:437:38: note: declared here
+ attribute_deprecated const AVOption *av_next_option(void *obj, const AVOption *last);
+                                      ^~~~~~~~~~~~~~
+libavutil/opt.c: In function 'av_opt_set_defaults':
+libavutil/opt.c:1154:5: warning: 'av_opt_set_defaults2' is deprecated [-Wdeprecated-declarations]
+     av_opt_set_defaults2(s, 0, 0);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from libavutil/opt.c:32:
+libavutil/opt.h:460:6: note: declared here
+ void av_opt_set_defaults2(void *s, int mask, int flags);
+      ^~~~~~~~~~~~~~~~~~~~
+CC	libavutil/parseutils.o
+CC	libavutil/pixdesc.o
+libavutil/pixdesc.c: In function 'ff_check_pixfmt_descriptors':
+libavutil/pixdesc.c:2033:5: warning: 'av_pix_fmt_descriptors' is deprecated [-Wdeprecated-declarations]
+     for (i=0; i<FF_ARRAY_ELEMS(av_pix_fmt_descriptors); i++) {
+     ^~~
+libavutil/pixdesc.c:133:26: note: declared here
+ const AVPixFmtDescriptor av_pix_fmt_descriptors[AV_PIX_FMT_NB] = {
+                          ^~~~~~~~~~~~~~~~~~~~~~
+libavutil/pixdesc.c:2033:5: warning: 'av_pix_fmt_descriptors' is deprecated [-Wdeprecated-declarations]
+     for (i=0; i<FF_ARRAY_ELEMS(av_pix_fmt_descriptors); i++) {
+     ^~~
+libavutil/pixdesc.c:133:26: note: declared here
+ const AVPixFmtDescriptor av_pix_fmt_descriptors[AV_PIX_FMT_NB] = {
+                          ^~~~~~~~~~~~~~~~~~~~~~
+libavutil/pixdesc.c:2034:9: warning: 'av_pix_fmt_descriptors' is deprecated [-Wdeprecated-declarations]
+         const AVPixFmtDescriptor *d = &av_pix_fmt_descriptors[i];
+         ^~~~~
+libavutil/pixdesc.c:133:26: note: declared here
+ const AVPixFmtDescriptor av_pix_fmt_descriptors[AV_PIX_FMT_NB] = {
+                          ^~~~~~~~~~~~~~~~~~~~~~
+CC	libavutil/random_seed.o
+CC	libavutil/rational.o
+CC	libavutil/rc4.o
+CC	libavutil/ripemd.o
+CC	libavutil/samplefmt.o
+CC	libavutil/sha.o
+CC	libavutil/sha512.o
+CC	libavutil/stereo3d.o
+CC	libavutil/threadmessage.o
+CC	libavutil/time.o
+CC	libavutil/timecode.o
+libavutil/timecode.c: In function 'av_timecode_make_string':
+libavutil/timecode.c:103:53: warning: ':' directive output may be truncated writing 1 byte into a region of size between 0 and 11 [-Wformat-truncation=]
+     snprintf(buf, AV_TIMECODE_STR_SIZE, "%s%02d:%02d:%02d%c%02d",
+                                                     ^
+libavutil/timecode.c:103:41: note: directive argument in the range [-59, 59]
+     snprintf(buf, AV_TIMECODE_STR_SIZE, "%s%02d:%02d:%02d%c%02d",
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+libavutil/timecode.c:103:41: note: directive argument in the range [0, 2147483647]
+In file included from /usr/include/stdio.h:873,
+                 from libavutil/timecode.c:29:
+/usr/include/bits/stdio2.h:67:10: note: '__builtin___snprintf_chk' output between 12 and 32 bytes into a destination of size 16
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CC	libavutil/tree.o
+CC	libavutil/utils.o
+CC	libavutil/x86/cpu.o
+YASM	libavutil/x86/cpuid.o
+STRIP	libavutil/x86/cpuid.o
+YASM	libavutil/x86/emms.o
+STRIP	libavutil/x86/emms.o
+YASM	libavutil/x86/float_dsp.o
+STRIP	libavutil/x86/float_dsp.o
+CC	libavutil/x86/float_dsp_init.o
+YASM	libavutil/x86/lls.o
+STRIP	libavutil/x86/lls.o
+CC	libavutil/x86/lls_init.o
+CC	libavutil/xga_font_data.o
+CC	libavutil/xtea.o
+LD	libavutil/libavutil.so.52
+INSTALL	libavutil/libavutil.so
+STRIP	install-libavutil-shared
+==> Tidying install...
+  -> Removing libtool files...
+  -> Purging unwanted files...
+  -> Removing static library files...
+  -> Stripping unneeded symbols from binaries and libraries...
+  -> Compressing man and info pages...
+==> Checking for packaging issues...
+==> Creating package "libavutil-52"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: libavutil-52 2.3.6-3 (Sat Jan  5 09:14:44 2019)
+==> Cleaning up...
+sudo: timed out reading password
